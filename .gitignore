@@ -127,3 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# .gitignore
+
+# ignore secret environment variable values in the ".env" file:
+.env
+
+# .gitignore file
+
+.DS_Store
+
+# ignore our secret credentials:
+.env
+
+# just an example if using google apis:
+auth/google-credentials.json
